@@ -21,7 +21,7 @@ mkdir logs
 
 ## 四、安装依赖
 
-```pip install -r requirements.txt```
+```pip install -r requirements.txt```或者```pip3 install -r requirements.txt```
 
 ## 五、运行程序
 
