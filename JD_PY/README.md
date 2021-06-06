@@ -2,6 +2,8 @@
 
 本项目是基于python3.9写的，不保证低版本python兼容性
 
+不依赖于任何容器，可以单独运行。你可以选择使用docker运行，也可以选择直接宿主机运行。推荐docker运行，虽然我没做过docker的测试，但由于项目涉及到crontab的编辑，因此宿主机运行可能会导致crontab清空，所以docker更安全
+
 # 使用方法
 ## 一、下载本项目
 `git clone https://github.com/dd178/JD_PY.git`
