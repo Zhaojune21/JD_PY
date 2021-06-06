@@ -1,0 +1,61 @@
+[bot]
+chat_id =
+bot_token =
+api_id =
+api_hash =
+
+[jd]
+cookies =
+
+[enable]
+proxy = True
+proxy_user = True
+notify = True
+
+[proxy]
+proxy_type =
+addr =
+port =
+username =
+password =
+
+[loggers]
+keys = root,rain,JD_PY
+
+[handlers]
+keys = fileHandler,consoleHandler
+
+[formatters]
+keys = simpleFormatter
+
+[logger_root]
+level = ERROR
+handlers = consoleHandler,fileHandler
+
+[logger_rain]
+level = INFO
+handlers = consoleHandler,fileHandler
+qualname = rain
+propagate = 0
+
+[logger_JD_PY]
+level = INFO
+handlers = consoleHandler,fileHandler
+qualname = JD_PY
+propagate = 0
+
+[handler_consoleHandler]
+class = StreamHandler
+args = (sys.stdout,)
+level = DEBUG
+formatter = simpleFormatter
+
+[handler_fileHandler]
+class = FileHandler
+args =
+level = DEBUG
+formatter = simpleFormatter
+
+[formatter_simpleFormatter]
+format = %(asctime)s | %(levelname)-8s | %(filename)s[:%(lineno)-3d]  |  %(message)s
+
