@@ -26,7 +26,7 @@ mkdir logs
 ## 五、运行程序
 
 ### 1.前台运行（不推荐）
-```python JD_PY.py```
+```JD_PY.py```或者```python JD_PY.py```或者```python3 JD_PY.py```
 
 ### 2.nohup命令（推荐）
 ```nohup python JD_PY.py &```
@@ -51,6 +51,6 @@ mkdir logs
 #### 3.4 使用
 ```screen -S JD_PY```新建JD_PY会话
 
-```python JD_PY.py```运行程序
+```JD_PY.py```或者```python JD_PY.py```或者```python3 JD_PY.py```运行程序
 
 ```ctrl+a+d```返回
