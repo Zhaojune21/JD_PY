@@ -30,12 +30,12 @@ mkdir logs
 ```nohup python JD_PY.py &```
 
 ### 3.screen命令（推荐）
-#### 3.1ubuntu安装
+#### 3.1 ubuntu安装
 ```apt install screen```
-#### 3.2CentOS安装
+#### 3.2 CentOS安装
 ```yum install screen```
 其他系统请自行百度
-#### 3.3基本命令
+#### 3.3 基本命令
 ```screen -S name``` 新建一个名称为name的会话
 
 ```screen -r name``` 回到name会话
@@ -46,7 +46,7 @@ mkdir logs
 
 ```ctrl+a+d``` 使用组合键返回主会话
 
-#### 3.4使用
+#### 3.4 使用
 ```screen -S JD_PY```新建JD_PY会话
 
 ```python JD_PY.py```运行程序
